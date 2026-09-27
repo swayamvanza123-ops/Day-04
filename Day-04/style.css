@@ -1,0 +1,282 @@
+/* ========================================
+   PRODUCT LINK
+======================================== */
+
+.product-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: all 0.25s ease;
+}
+
+.product-link:hover {
+    color: #22d3ee;
+
+    text-shadow:
+        0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+
+/* ========================================
+   PRODUCT DETAILS PAGE
+======================================== */
+
+.product-page {
+
+    width: 92%;
+    max-width: 900px;
+
+    margin: 50px auto;
+
+}
+
+
+/* ========================================
+   BACK BUTTON
+======================================== */
+
+.back-button {
+
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    padding: 11px 18px;
+
+    border-radius: 10px;
+
+    background: rgba(37, 99, 235, 0.15);
+
+    border: 1px solid rgba(96, 165, 250, 0.25);
+
+    color: #60a5fa;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+.back-button:hover {
+
+    background: rgba(37, 99, 235, 0.25);
+
+    transform: translateX(-4px);
+
+}
+
+
+/* ========================================
+   PRODUCT DETAILS CARD
+======================================== */
+
+.product-details {
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(15, 23, 42, 0.95),
+            rgba(17, 24, 39, 0.95)
+        );
+
+    border: 1px solid rgba(96, 165, 250, 0.15);
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    text-align: center;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* ========================================
+   PRODUCT ICON
+======================================== */
+
+.product-icon {
+
+    width: 90px;
+    height: 90px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 22px;
+
+    font-size: 42px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #7c3aed
+        );
+
+    box-shadow:
+        0 0 35px rgba(59, 130, 246, 0.25);
+
+}
+
+
+/* ========================================
+   PRODUCT TITLE
+======================================== */
+
+.product-details h1 {
+
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: 38px;
+
+    margin-bottom: 8px;
+
+}
+
+
+/* ========================================
+   CATEGORY
+======================================== */
+
+.product-category {
+
+    color: #94a3b8;
+
+    font-size: 15px;
+
+    margin-bottom: 35px;
+
+}
+
+
+/* ========================================
+   DETAILS GRID
+======================================== */
+
+.details-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 18px;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ========================================
+   DETAIL BOX
+======================================== */
+
+.detail-box {
+
+    padding: 22px;
+
+    border-radius: 15px;
+
+    background:
+        rgba(30, 41, 59, 0.65);
+
+    border: 1px solid
+        rgba(148, 163, 184, 0.1);
+
+    text-align: left;
+
+}
+
+
+.detail-box span {
+
+    display: block;
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.detail-box strong {
+
+    color: #e2e8f0;
+
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: 20px;
+
+}
+
+
+/* ========================================
+   PRODUCT STATUS
+======================================== */
+
+.product-status {
+
+    display: inline-block;
+
+    padding: 10px 25px;
+
+    border-radius: 50px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+}
+
+
+/* ========================================
+   MOBILE PRODUCT PAGE
+======================================== */
+
+@media (max-width: 600px) {
+
+    .product-page {
+
+        width: 94%;
+
+        margin: 25px auto;
+
+    }
+
+    .product-details {
+
+        padding: 30px 20px;
+
+    }
+
+    .product-details h1 {
+
+        font-size: 29px;
+
+    }
+
+    .details-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
